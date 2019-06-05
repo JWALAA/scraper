@@ -1,9 +1,5 @@
 from selenium import webdriver
 import bs4
-import json
-import pandas as pd
-import requests
-
 
 State = []
 District =[]
