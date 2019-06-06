@@ -57,6 +57,8 @@ for i in range(1,len(State1.options)):
         l3[state[i].text]=l2
     except:
         print("State Error")    
-
+"""
+#if want to store data
 with open("poll.json", "a") as write_file:
     json.dump(l3, write_file, indent=4)
+"""
